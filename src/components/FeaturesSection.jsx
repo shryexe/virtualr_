@@ -36,3 +36,4 @@ const FeaturesSection = () => {
 
 export default FeaturesSection;
 
+import { features } from "../constants";
