@@ -1,16 +1,87 @@
-# React + Vite
+# VirtualR
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern landing page for a VR development platform built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19.1.1-blue)
+![Vite](https://img.shields.io/badge/Vite-7.1.14-purple)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.18-38B2AC)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## React Compiler
+VirtualR is a landing page showcasing a VR application development platform that enables users to build immersive virtual reality experiences with ease. The platform features drag-and-drop interfaces, multi-platform compatibility, real-time previews, and collaboration tools.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Hero Section** - Eye-catching introduction with video backgrounds
+- **Features Section** - Highlights platform capabilities
+- **Workflow Section** - Demonstrates the development process
+- **Pricing Section** - Three-tier pricing plans (Free, Pro, Enterprise)
+- **Testimonials** - Customer reviews and feedback
+- **Responsive Design** - Fully responsive across all devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **React 19** - UI library
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Lucide React** - Icon library
+- **PostCSS & Autoprefixer** - CSS processing
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd my-project
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit `http://localhost:5173`
+
+## Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint |
+
+## Project Structure
+
+```
+src/
+├── assets/           # Images, videos, and static files
+├── components/       # React components
+│   ├── Navbar.jsx
+│   ├── HeroSection.jsx
+│   ├── FeaturesSection.jsx
+│   ├── Workflow.jsx
+│   ├── pricing.jsx
+│   ├── testimonials.jsx
+│   └── footer.jsx
+├── constants/        # Static data and configuration
+├── App.jsx           # Main application component
+├── main.jsx          # Application entry point
+└── index.css         # Global styles
+```
+
+## License
+
+This project is private and not licensed for public distribution.
